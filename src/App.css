@@ -1,10 +1,15 @@
 .App {
-  text-align: center;
+  background-color: whitesmoke;
+  width: 1600px;
+  height: 1080px;
+  background-size: 100% auto;
+  padding: 50px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background-color: #87CEFA;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #87CEFA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +30,79 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #87CEFA;
+}
+
+.NFT {
+  width: 160px;
+  height: 150px;
+  padding: 10px;
+}
+
+.txt1 {
+  padding-top: 0px;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+.txt2 {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+.txt3 {
+  padding: 65px;
+  float: left;
+  padding-top: 0px;
+  font-family: Verdana;
+  font-size: 13px;
+}
+
+.txt4 {
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+.vagues {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-family: Verdana;
+}
+
+.Example{
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-family: Verdana;
+  font-size: 20px;
+  text-decoration : underline;
+}
+
+.txt5{
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+.titre{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: Verdana;
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+.background{
+  padding-top:0px;
+  padding-bottom: 0px;
 }
 
 @keyframes App-logo-spin {
